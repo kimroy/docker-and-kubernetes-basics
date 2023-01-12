@@ -1,0 +1,11 @@
+To build our own image we will use Dockerfiles.
+-> A Dockerfile is a plain text file with configuration which defines how our container behave on startup.
+-> Dockerfiles are then passed to the Docker Client.
+-> The Docker Client provides the file to the Docker Server
+-> Takes the Dockerfile and the Docker Server creates the image from that configuration.
+
+Dockerfile Flow:
+1. Specify a base image
+2. Run some commands to install additional programs
+3. Specify a command to run on container startup
+
